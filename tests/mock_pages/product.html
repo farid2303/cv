@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopee Mock Product Page</title>
+</head>
+<body>
+  <h1>Flash Sale Item Mock</h1>
+  <div class="product-variations">
+    <button class="product-variation" id="var-black">Hitam</button>
+    <button class="product-variation" id="var-white">Putih</button>
+    <button class="product-variation" id="var-size-m">M</button>
+    <button class="product-variation" id="var-size-l">L</button>
+  </div>
+  <div class="quantity-section">
+    <input class="shopee-input-quantity" type="number" value="1" min="1" max="10" />
+  </div>
+  <div class="actions">
+    <button class="btn-solid-primary btn-buy-now" id="buy-now-btn">Beli Sekarang</button>
+  </div>
+
+  <script>
+    document.getElementById('buy-now-btn').addEventListener('click', function() {
+      window.location.href = '/checkout';
+    });
+  </script>
+</body>
+</html>
