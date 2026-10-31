@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+shopee_user_data/
+cookies.json
+*.log
