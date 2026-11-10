@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopee Mock Checkout Page</title>
+</head>
+<body>
+  <h1>Checkout</h1>
+  <div class="payment-methods">
+    <button class="payment-option" id="pay-shopeepay">ShopeePay</button>
+    <button class="payment-option" id="pay-cod">COD</button>
+  </div>
+  <div class="checkout-footer">
+    <button class="stardust-button--primary place-order-btn" id="place-order-btn">Buat Pesanan</button>
+  </div>
+  <div id="order-status"></div>
+
+  <script>
+    document.getElementById('place-order-btn').addEventListener('click', function() {
+      document.getElementById('order-status').innerText = 'Order Placed Successfully!';
+    });
+  </script>
+</body>
+</html>

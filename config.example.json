@@ -1,0 +1,13 @@
+{
+  "item_url": "https://shopee.co.id/product/12345/67890",
+  "scheduled_time": "2025-12-31 12:00:00",
+  "variations": ["Hitam", "L"],
+  "quantity": 1,
+  "payment_method": "ShopeePay",
+  "refresh_offset_ms": 800,
+  "click_interval_ms": 50,
+  "headless": false,
+  "user_data_dir": "./shopee_user_data",
+  "cookies_file": "./cookies.json",
+  "dry_run": true
+}

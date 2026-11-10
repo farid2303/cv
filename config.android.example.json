@@ -1,0 +1,16 @@
+{
+  "product_url": "https://shopee.co.id/product/12345/67890",
+  "scheduled_time": "2026-11-01 12:00:00",
+  "device_id": null,
+  "screen_resolution": [1080, 2400],
+  "coordinates": {
+    "buy_now_product_page": [850, 2300],
+    "variation_option": [300, 1800],
+    "buy_now_popup_confirm": [540, 2300],
+    "checkout_place_order": [850, 2300]
+  },
+  "open_app_offset_ms": 1500,
+  "tap_interval_ms": 120,
+  "buy_now_burst_count": 8,
+  "dry_run": true
+}
