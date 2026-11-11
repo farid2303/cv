@@ -11,7 +11,8 @@
   <!--Create profile by using table-->
   <table align="auto">
     <tr>
-      <td><img src="image\profile-modified_edited.jpg" alt="Gambar profile"></td>
+      <!-- Performance: explicit width/height prevent Cumulative Layout Shift (CLS); decoding="async" avoids blocking the main thread during image decode -->
+      <td><img src="image/profile-modified_edited.jpg" alt="Gambar profile" width="156" height="209" decoding="async"></td>
       <td>
         <h1>Farid Izzuddin</h1>
       </td>
